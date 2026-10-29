@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #243047;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+}
+
+h1 {
+  color: #493b91;
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #667085;
+}
+
+.reloj {
+  margin-top: 12px;
+  color: #5948b5;
+  font-weight: 600;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  margin: 20px 0 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contador {
+  color: #667085;
+}
+
+.lista-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.tarjeta,
+.seleccion {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000010;
+}
+
+.tarjeta h3 {
+  color: #493b91;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  background: #5948b5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #40318f;
+}
+
+.seleccion {
+  margin-top: 25px;
+  border-left: 5px solid #5948b5;
+}
+
+.sin-resultados {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+}
